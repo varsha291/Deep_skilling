@@ -1,0 +1,99 @@
+Hands-on 3 – Hibernate Annotation Configuration
+Explain how Object to Relational Database Mapping is done in Persistence Class (Employee)
+
+Hibernate Annotation Configuration is a modern approach used to perform Object Relational Mapping (ORM) without using XML mapping files. Instead of defining the mapping in separate XML files, annotations are written directly inside the Java Persistence Class. This makes the application simpler, more readable, and easier to maintain.
+
+In this approach, a Java class called Employee is created to represent the data stored in the database. The Employee class contains attributes such as employee ID, employee name, salary, department, and other required details. Hibernate uses annotations placed above the class and its fields to understand how these attributes should be mapped to the database.
+
+The @Entity annotation is used to inform Hibernate that the Employee class is a persistent entity and should be mapped to a database table. The @Table annotation specifies the name of the database table that stores the employee records. If the table name is not provided, Hibernate automatically uses the class name as the table name.
+
+The primary key of the table is identified using the @Id annotation. If the primary key values need to be generated automatically, the @GeneratedValue annotation is used. This removes the need for manually assigning unique IDs and allows Hibernate to generate them automatically.
+
+Each field inside the Employee class is mapped to a database column using the @Column annotation. This annotation allows developers to specify the column name, length, null constraints, and uniqueness. When no @Column annotation is provided, Hibernate automatically maps the field name to the corresponding column name.
+
+When the application starts, Hibernate scans the Employee class, reads all the annotations, and creates the required mapping information internally. Based on this mapping, Hibernate automatically creates SQL statements for inserting, updating, deleting, and retrieving employee records. Developers only need to work with Java objects, while Hibernate handles all the database communication in the background.
+
+For example, when an Employee object is created and the session.save() method is called, Hibernate converts the Employee object into a database record and stores it in the Employee table. Similarly, when employee data is retrieved from the database, Hibernate converts the database records back into Employee objects. This automatic conversion between Java objects and relational tables is known as Object Relational Mapping (ORM).
+
+Using annotations provides several advantages over XML configuration. It reduces the number of configuration files, improves code readability, keeps mapping information together with the Java class, and makes application development faster and easier. Annotation-based configuration is widely used in modern Spring Boot and Hibernate applications because it is simple, efficient, and easier to maintain.
+
+Explain about following aspects of implementing the end to end operations in Hibernate:
+
+o @Entity
+
+o @Table
+
+o @Id
+
+o @GeneratedValue
+
+o @Column
+
+o Hibernate Configuration (hibernate.cfg.xml)
+
+§ Dialect
+
+§ Driver
+
+§ Connection URL
+
+§ Username
+
+§ Password
+
+ans :-
+
+@Entity
+
+The @Entity annotation is the first step in implementing end-to-end database operations in Hibernate. It tells Hibernate that the Employee class is a persistent entity and should be mapped to a database table. Whenever an Employee object is created, Hibernate recognizes it as an entity and manages its lifecycle. Without the @Entity annotation, Hibernate will not treat the class as a database entity, making CRUD operations impossible. It acts as the bridge between the Java application and the relational database.
+
+@Table
+
+The @Table annotation is used to specify the exact database table associated with the entity class. During application startup, Hibernate reads this annotation and maps the Employee class to the specified table. If this annotation is not provided, Hibernate automatically considers the class name as the table name. Using @Table provides better control over table naming and helps maintain consistency between the Java application and the database schema.
+
+@Id
+
+The @Id annotation identifies the primary key of the entity. During insert, update, delete, and retrieval operations, Hibernate uses this primary key to uniquely identify each record. Without a primary key, Hibernate cannot distinguish one record from another, making entity management impossible. Every entity must contain one field annotated with @Id.
+
+@GeneratedValue
+
+The @GeneratedValue annotation is used along with @Id to generate primary key values automatically. During insertion, Hibernate requests the database to generate a unique identifier instead of assigning it manually. This reduces developer effort, avoids duplicate key errors, and ensures every record has a unique identity. It is commonly used with strategies such as AUTO, IDENTITY, SEQUENCE, and TABLE.
+
+@Column
+
+The @Column annotation maps a Java class field to a specific database column. It allows developers to customize column properties such as name, length, uniqueness, and nullability. During database operations, Hibernate uses this annotation to correctly store and retrieve values from the corresponding columns. If the annotation is omitted, Hibernate automatically maps the field name to a column with the same name.
+
+Hibernate Configuration (hibernate.cfg.xml)
+
+The hibernate.cfg.xml file is the central configuration file of Hibernate. It contains all the information required to establish the database connection and initialize Hibernate. When the application starts, Hibernate reads this configuration file, loads the database settings, registers all entity classes, creates the SessionFactory, and prepares the application for performing database operations. Without this configuration file, Hibernate cannot communicate with the database.
+
+Dialect
+
+The Hibernate Dialect specifies the SQL language supported by a particular database. Since different databases have different SQL syntax, Hibernate uses the dialect to generate database-specific SQL queries. For example, MySQL, Oracle, PostgreSQL, and H2 all require different dialects. Choosing the correct dialect ensures that Hibernate generates compatible SQL statements.
+
+Driver
+
+The Driver specifies the JDBC driver used to connect the Java application with the database. It acts as the communication layer between Hibernate and the database. Without the correct driver, the application cannot establish a database connection.
+
+Connection URL
+
+The Connection URL specifies the location of the database. It contains information such as the database type, host name, port number, and database name. Hibernate uses this URL to locate and connect to the correct database instance.
+
+Username
+
+The Username property contains the login name used to authenticate the application with the database server. Hibernate sends this username while establishing the connection. If the username is incorrect, the database connection fails.
+
+Password
+
+The Password property contains the authentication password for the specified database user. Hibernate verifies both the username and password before creating the connection. Providing the correct credentials ensures secure access to the database.
+
+End-to-End Flow of Hibernate Annotation Configuration
+The application starts and Hibernate reads the hibernate.cfg.xml configuration file.
+Hibernate loads the database driver, connection URL, username, password, and SQL dialect.
+Hibernate scans all entity classes marked with the @Entity annotation.
+Using @Table, @Id, @GeneratedValue, and @Column, Hibernate creates the mapping between Java objects and database tables.
+A SessionFactory is created, which then creates Session objects.
+The application opens a Session and begins a Transaction.
+CRUD operations such as save(), update(), get(), and delete() are performed.
+The transaction is committed if all operations are successful; otherwise, it is rolled back.
+Finally, the Session is closed, and the application completes the database operation successfully.

@@ -1,0 +1,83 @@
+Hands-on 2 – Hibernate XML Configuration
+
+Explain how Object to Relational Database Mapping is done in Hibernate XML Configuration.
+
+Object Relational Mapping (ORM) is a technique that connects Java objects with relational database tables. In Hibernate XML Configuration, this mapping is done using XML files instead of annotations. The XML file contains information about which Java class is mapped to which database table and how the class attributes are connected to the table columns.
+
+The first step is to create a Java class, also known as a Persistence Class or Entity Class. This class contains the attributes that represent the data to be stored in the database. For example, a Student class may contain fields such as id, name, and department.
+
+After creating the Java class, a separate mapping file (usually with the extension .hbm.xml) is created. This XML file defines the relationship between the Java class and the database table. It specifies the table name, primary key, and the mapping of each class attribute to its corresponding database column. Because of this mapping, Hibernate understands how to convert Java objects into database records and vice versa.
+
+Next, a Hibernate configuration file named hibernate.cfg.xml is created. This file contains important database configuration details such as the JDBC driver, database URL, username, password, SQL dialect, and the location of the mapping files. When the application starts, Hibernate reads this configuration file to establish the database connection and load all the required mappings.
+
+Once the configuration is completed, Hibernate creates a SessionFactory, which is responsible for creating Session objects. A Session acts as a bridge between the Java application and the database. Through the Session, developers can perform various database operations such as inserting, updating, deleting, and retrieving records.
+
+When the save() method is called, Hibernate automatically converts the Java object into a database record and stores it in the mapped table. Similarly, when data is retrieved from the database, Hibernate converts the database records back into Java objects. This entire conversion process happens automatically because of the mapping defined in the XML file.
+
+Explain how Object to Relational Database Mapping is done in Hibernate XML Configuration.
+
+Object Relational Mapping (ORM) is a technique that establishes a relationship between Java objects and relational database tables. Hibernate uses this technique to eliminate the need for writing repetitive SQL queries. In Hibernate XML Configuration, this mapping is performed using XML files instead of annotations.
+
+Initially, a Java class (Persistence Class) is created to represent the data. Then, a mapping file (.hbm.xml) is created to define the relationship between the Java class and the corresponding database table. This mapping file contains details such as the table name, primary key, and the mapping of class attributes to database columns.
+
+After creating the mapping file, a configuration file named hibernate.cfg.xml is used to provide database connection details like JDBC driver, URL, username, password, SQL dialect, and the mapping file location. When the application starts, Hibernate reads this configuration, establishes a database connection, and creates a SessionFactory.
+
+Whenever a Java object is saved, updated, deleted, or retrieved, Hibernate automatically converts the Java object into a database record and vice versa. This process is called Object Relational Mapping. It simplifies database operations, improves code maintainability, and reduces development time.
+
+---> SessionFactory:
+
+SessionFactory is the main component of Hibernate. It is responsible for creating Session objects that communicate with the database. Normally, only one SessionFactory object is created for an application because it consumes more resources. Once created, it is reused throughout the application to improve performance.
+
+---> Session:
+
+A Session acts as a bridge between the Java application and the database. It is used to perform all database operations such as inserting, updating, deleting, and retrieving records. Every interaction with the database is done through a Session object. After completing the required operations, the Session should be closed to release resources.
+
+---> Transaction:
+
+A Transaction is used to maintain data consistency while performing database operations. It ensures that either all operations are completed successfully or none of them are applied. If an error occurs during execution, the transaction can be rolled back to prevent incorrect data from being stored in the database.
+
+---> beginTransaction():
+
+The beginTransaction() method is used to start a new transaction before performing any database operation. Starting a transaction ensures that all operations are executed safely and can either be committed or rolled back.
+
+---> commit():
+
+The commit() method is used after successful completion of database operations. It permanently saves all the changes made during the transaction into the database. Once committed, the changes cannot be automatically undone.
+
+---> rollback():
+
+The rollback() method is used when an exception or error occurs during a transaction. It cancels all changes made during the current transaction and restores the database to its previous state. This helps in maintaining data integrity.
+
+---> session.save():
+
+The session.save() method is used to insert a new object into the database. Hibernate automatically converts the Java object into a database record and stores it in the corresponding table.
+
+---> session.get():
+
+The session.get() method is used to retrieve a single record from the database using its primary key. If the requested record exists, Hibernate returns the corresponding object; otherwise, it returns null.
+
+---> session.createQuery().list():
+
+This method is used to retrieve multiple records from the database. It executes an HQL (Hibernate Query Language) query and returns the result as a list of Java objects. It is commonly used when displaying all records from a table.
+
+---> session.delete():
+
+The session.delete() method is used to remove an existing object from the database. Once the transaction is committed, the corresponding record is permanently deleted from the table.
+
+Advantages of Hibernate XML Configuration:
+
+* Reduces the amount of JDBC code.
+
+* Makes database operations simple and easy to understand.
+
+* Supports object-oriented programming concepts.
+
+* Provides automatic transaction management.
+
+* Improves code readability and maintainability.
+
+* Makes the application independent of a specific database.
+
+---> Conclusion:
+
+Hibernate XML Configuration provides a structured way of connecting Java applications with relational databases using XML files. Although modern applications mainly use annotation-based configuration, learning XML configuration is important because it explains the internal working of Hibernate and provides a strong foundation for understanding ORM concepts.
