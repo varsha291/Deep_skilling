@@ -1,4 +1,8 @@
 package com.cognizant;
 
 public class ExceptionThrower {
+
+    public void throwException() {
+        throw new IllegalArgumentException("Exception occurred");
+    }
 }

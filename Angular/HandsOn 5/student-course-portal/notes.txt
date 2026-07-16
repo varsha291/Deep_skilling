@@ -1,0 +1,19 @@
+angular.json - Contains Angular workspace configuration, build settings, and project settings.
+
+tsconfig.json - Contains the main TypeScript compiler configuration for the Angular project.
+
+tsconfig.app.json - Contains TypeScript configuration specifically for the Angular application.
+
+package.json - Contains project dependencies, npm scripts, and project metadata.
+
+src/main.ts - Entry point of the Angular application that bootstraps the root component.
+
+src/app/app.config.ts - Contains application-level configuration and providers for standalone Angular.
+
+src/app/app.ts - Defines the root Angular component of the application.
+
+src/index.html - Main HTML page where the Angular application is loaded.
+
+The dist folder contains the production build output. Generated JavaScript files contain the compiled application code.
+
+maximumWarning and maximumError in angular.json control production bundle size thresholds. Exceeding maximumWarning shows a warning, while exceeding maximumError causes a build error.

@@ -1,0 +1,130 @@
+<h2>Student Enrollment Request</h2>
+
+<form
+  #enrollForm="ngForm"
+  (ngSubmit)="onSubmit(enrollForm)">
+
+  <div>
+    <label>Student Name:</label>
+
+    <input
+      type="text"
+      name="studentName"
+      [(ngModel)]="studentName"
+      #nameCtrl="ngModel"
+      required
+      minlength="3">
+
+    <span
+      *ngIf="
+        nameCtrl.touched &&
+        nameCtrl.errors?.['required']
+      ">
+      Name is required
+    </span>
+
+    <span
+      *ngIf="
+        nameCtrl.touched &&
+        nameCtrl.errors?.['minlength']
+      ">
+      Name must be at least 3 characters
+    </span>
+  </div>
+
+  <br>
+
+  <div>
+    <label>Student Email:</label>
+
+    <input
+      type="email"
+      name="studentEmail"
+      [(ngModel)]="studentEmail"
+      #emailCtrl="ngModel"
+      required
+      email>
+
+    <span
+      *ngIf="
+        emailCtrl.touched &&
+        emailCtrl.errors?.['required']
+      ">
+      Email is required
+    </span>
+
+    <span
+      *ngIf="
+        emailCtrl.touched &&
+        emailCtrl.errors?.['email']
+      ">
+      Enter a valid email
+    </span>
+  </div>
+
+  <br>
+
+  <div>
+    <label>Course ID:</label>
+
+    <input
+      type="number"
+      name="courseId"
+      [(ngModel)]="courseId"
+      required>
+  </div>
+
+  <br>
+
+  <div>
+    <label>Preferred Semester:</label>
+
+    <select
+      name="preferredSemester"
+      [(ngModel)]="preferredSemester"
+      required>
+
+      <option value="Odd">
+        Odd
+      </option>
+
+      <option value="Even">
+        Even
+      </option>
+
+    </select>
+  </div>
+
+  <br>
+
+  <div>
+    <label>
+      <input
+        type="checkbox"
+        name="agreeToTerms"
+        [(ngModel)]="agreeToTerms"
+        required>
+
+      Agree to Terms
+    </label>
+  </div>
+
+  <br>
+
+  <button
+    type="submit"
+    [disabled]="enrollForm.invalid">
+    Submit
+  </button>
+
+  <button
+    type="button"
+    (click)="onReset(enrollForm)">
+    Reset
+  </button>
+
+</form>
+
+<div *ngIf="submitted">
+  Enrollment request submitted successfully!
+</div>
