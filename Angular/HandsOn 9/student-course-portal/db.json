@@ -1,0 +1,96 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "title": "Angular HTTP Essentials",
+      "instructor": "Narasimha Rao",
+      "duration": "4 weeks",
+      "category": "Frontend",
+      "credits": 4,
+      "progress": 72
+    },
+    {
+      "id": "2",
+      "title": "RxJS for API Workflows",
+      "instructor": "Meera Iyer",
+      "duration": "3 weeks",
+      "category": "Reactive Programming",
+      "credits": 3,
+      "progress": 45
+    },
+    {
+      "id": "3",
+      "title": "Interceptors and Error Handling",
+      "instructor": "Arjun Menon",
+      "duration": "2 weeks",
+      "category": "Architecture",
+      "credits": 2,
+      "progress": 20
+    },
+    {
+      "title": "Advanced Angular Patterns",
+      "instructor": "Vikram Singh",
+      "duration": "5 weeks",
+      "category": "Advanced",
+      "credits": 1,
+      "progress": 0,
+      "id": "IhIGPKUHG_I"
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@example.com",
+      "enrolledCourses": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Diya Patel",
+      "email": "diya.patel@example.com",
+      "enrolledCourses": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Rohan Gupta",
+      "email": "rohan.gupta@example.com",
+      "enrolledCourses": [
+        2
+      ]
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "1",
+      "courseId": 1,
+      "studentId": 1
+    },
+    {
+      "id": "2",
+      "courseId": 1,
+      "studentId": 2
+    },
+    {
+      "id": "3",
+      "courseId": 2,
+      "studentId": 1
+    },
+    {
+      "id": "4",
+      "courseId": 2,
+      "studentId": 3
+    },
+    {
+      "id": "5",
+      "courseId": 3,
+      "studentId": 2
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

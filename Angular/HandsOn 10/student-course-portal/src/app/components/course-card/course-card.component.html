@@ -1,0 +1,5 @@
+<article class="course-card" *ngIf="course">
+  <h3>{{ course.name }}</h3>
+  <p>{{ course.code }} | Credits: {{ course.credits }} | Status: {{ course.gradeStatus }}</p>
+  <button type="button" (click)="requestEnrollment()">Enroll</button>
+</article>

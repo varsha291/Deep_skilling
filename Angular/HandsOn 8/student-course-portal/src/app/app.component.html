@@ -1,0 +1,101 @@
+<div class="loading-bar" *ngIf="loadingService.isLoading$ | async"></div>
+
+<main class="portal-shell">
+  <section class="toolbar">
+    <div>
+      <p class="eyebrow">Hands-On 8</p>
+      <h1>Student Course Portal</h1>
+    </div>
+    <button type="button" class="refresh-button" (click)="loadCourses()" [disabled]="isLoading">
+      Refresh
+    </button>
+  </section>
+
+  <p class="alert error" *ngIf="errorMessage">{{ errorMessage }}</p>
+  <p class="alert success" *ngIf="successMessage">{{ successMessage }}</p>
+
+  <section class="layout">
+    <form class="course-form" #form="ngForm" (ngSubmit)="createCourse()">
+      <h2>Add Course</h2>
+
+      <label>
+        Title
+        <input name="title" [(ngModel)]="courseForm.title" required />
+      </label>
+
+      <label>
+        Instructor
+        <input name="instructor" [(ngModel)]="courseForm.instructor" required />
+      </label>
+
+      <label>
+        Duration
+        <input name="duration" [(ngModel)]="courseForm.duration" required />
+      </label>
+
+      <label>
+        Category
+        <input name="category" [(ngModel)]="courseForm.category" required />
+      </label>
+
+      <div class="form-grid">
+        <label>
+          Credits
+          <input type="number" name="credits" [(ngModel)]="courseForm.credits" min="1" required />
+        </label>
+
+        <label>
+          Progress
+          <input type="number" name="progress" [(ngModel)]="courseForm.progress" min="0" max="100" required />
+        </label>
+      </div>
+
+      <button type="submit" [disabled]="form.invalid">Create Course</button>
+    </form>
+
+    <section class="course-list">
+      <div class="section-header">
+        <h2>Courses</h2>
+        <span>{{ courses.length }} active</span>
+      </div>
+
+      <article class="course-card" *ngFor="let course of courses">
+        <div>
+          <p class="category">{{ course.category }}</p>
+          <h3>{{ course.title }}</h3>
+          <p>{{ course.instructor }} · {{ course.duration }} · {{ course.credits }} credits</p>
+        </div>
+
+        <div class="progress-row">
+          <progress [value]="course.progress" max="100"></progress>
+          <span>{{ course.progress }}%</span>
+        </div>
+
+        <div class="actions">
+          <button type="button" (click)="selectCourse(course.id)">Students</button>
+          <button type="button" (click)="markComplete(course)">Complete</button>
+          <button type="button" class="danger" (click)="deleteCourse(course.id)">Delete</button>
+        </div>
+      </article>
+    </section>
+
+    <aside class="students-panel">
+      <h2>Enrolled Students</h2>
+
+      <label>
+        Selected course
+        <select [ngModel]="selectedCourseId" (ngModelChange)="selectCourse($event)" name="selectedCourse">
+          <option [ngValue]="null">Choose a course</option>
+          <option *ngFor="let course of courses" [ngValue]="course.id">{{ course.title }}</option>
+        </select>
+      </label>
+
+      <ul>
+        <li *ngFor="let student of selectedStudents$ | async">
+          <strong>{{ student.name }}</strong>
+          <span>{{ student.email }}</span>
+        </li>
+      </ul>
+    </aside>
+  </section>
+</main>
