@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="49bb424b-a321-4736-a834-8c0ab6902d67" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Exercises/Exercise-1-OAuth2-OIDC/Exercise-1-OAuth2-OIDC/src/main/java/com/cognizant/exercise1oauth2oidc/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Exercises/Exercise-1-OAuth2-OIDC/Exercise-1-OAuth2-OIDC/src/main/java/com/cognizant/exercise1oauth2oidc/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Exercises/Exercise-1-OAuth2-OIDC/Exercise-1-OAuth2-OIDC/src/main/java/com/cognizant/exercise1oauth2oidc/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Exercises/Exercise-1-OAuth2-OIDC/Exercise-1-OAuth2-OIDC/src/main/java/com/cognizant/exercise1oauth2oidc/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Exercises/Exercise-1-OAuth2-OIDC/Exercise-1-OAuth2-OIDC/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Exercises/Exercise-1-OAuth2-OIDC/Exercise-1-OAuth2-OIDC/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Exercises/Exercise-2-Resource-Server/src/main/java/com/cognizant/exercise2resourceserver/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Exercises/Exercise-2-Resource-Server/src/main/java/com/cognizant/exercise2resourceserver/ResourceServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Exercises/Exercise-2-Resource-Server/src/main/java/com/cognizant/exercise2resourceserver/SecureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Exercises/Exercise-2-Resource-Server/src/main/java/com/cognizant/exercise2resourceserver/SecureController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Exercises/Exercise-3-JWT/src/main/java/com/cognizant/exercise3jwt/JwtConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Exercises/Exercise-3-JWT/src/main/java/com/cognizant/exercise3jwt/JwtConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Exercises/Exercise-3-JWT/src/main/java/com/cognizant/exercise3jwt/JwtController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Exercises/Exercise-3-JWT/src/main/java/com/cognizant/exercise3jwt/JwtController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Exercises/Exercise-3-JWT/src/main/java/com/cognizant/exercise3jwt/JwtTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Exercises/Exercise-3-JWT/src/main/java/com/cognizant/exercise3jwt/JwtTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Exercises/Exercise-3-JWT/src/main/java/com/cognizant/exercise3jwt/JwtTokenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Exercises/Exercise-3-JWT/src/main/java/com/cognizant/exercise3jwt/JwtTokenProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Exercises/Exercise-3-JWT/src/main/java/com/cognizant/exercise3jwt/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Exercises/Exercise-3-JWT/src/main/java/com/cognizant/exercise3jwt/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Load balancing exercises/Exercise - 1/account/src/main/java/com/cognizant/account/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Load balancing exercises/Exercise - 1/account/src/main/java/com/cognizant/account/AccountController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Load balancing exercises/Exercise-1-Edge-Service/src/main/java/com/cognizant/exercise1edgeservice/LoggingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Load balancing exercises/Exercise-1-Edge-Service/src/main/java/com/cognizant/exercise1edgeservice/LoggingFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Load balancing exercises/Exercise-2-Load-Balancing/src/main/java/com/cognizant/exercise2loadbalancing/LoadBalancerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Load balancing exercises/Exercise-2-Load-Balancing/src/main/java/com/cognizant/exercise2loadbalancing/LoadBalancerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Load balancing exercises/Exercise-3-Resilience/src/main/java/com/cognizant/exercise3resilience/ResilienceConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/0. Sample Microservices Load balancing exercises/Exercise-3-Resilience/src/main/java/com/cognizant/exercise3resilience/ResilienceConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/1. Microservices using Spring Boot 3 exercises/Exercise-1-User-Order-Management/src/main/java/com/cognizant/exercise1userordermanagement/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/1. Microservices using Spring Boot 3 exercises/Exercise-1-User-Order-Management/src/main/java/com/cognizant/exercise1userordermanagement/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/1. Microservices using Spring Boot 3 exercises/Exercise-1-User-Order-Management/src/main/java/com/cognizant/exercise1userordermanagement/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/1. Microservices using Spring Boot 3 exercises/Exercise-1-User-Order-Management/src/main/java/com/cognizant/exercise1userordermanagement/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/1. Microservices using Spring Boot 3 exercises/Exercise-1-User-Order-Management/src/main/java/com/cognizant/exercise1userordermanagement/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/1. Microservices using Spring Boot 3 exercises/Exercise-1-User-Order-Management/src/main/java/com/cognizant/exercise1userordermanagement/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/1. Microservices using Spring Boot 3 exercises/Exercise-1-User-Order-Management/src/main/java/com/cognizant/exercise1userordermanagement/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/1. Microservices using Spring Boot 3 exercises/Exercise-1-User-Order-Management/src/main/java/com/cognizant/exercise1userordermanagement/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/1. Microservices using Spring Boot 3 exercises/Exercise-1-User-Order-Management/src/main/java/com/cognizant/exercise1userordermanagement/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/1. Microservices using Spring Boot 3 exercises/Exercise-1-User-Order-Management/src/main/java/com/cognizant/exercise1userordermanagement/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/1. Microservices using Spring Boot 3 exercises/Exercise-1-User-Order-Management/src/main/java/com/cognizant/exercise1userordermanagement/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/1. Microservices using Spring Boot 3 exercises/Exercise-1-User-Order-Management/src/main/java/com/cognizant/exercise1userordermanagement/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/1. Microservices using Spring Boot 3 exercises/Exercise-2-Inventory-Service-Discovery/Inventory-Service/Inventory-Service/src/main/java/com/cognizant/inventoryservice/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/1. Microservices using Spring Boot 3 exercises/Exercise-2-Inventory-Service-Discovery/Inventory-Service/Inventory-Service/src/main/java/com/cognizant/inventoryservice/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/1. Microservices using Spring Boot 3 exercises/Exercise-2-Inventory-Service-Discovery/Inventory-Service/Inventory-Service/src/main/java/com/cognizant/inventoryservice/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/1. Microservices using Spring Boot 3 exercises/Exercise-2-Inventory-Service-Discovery/Inventory-Service/Inventory-Service/src/main/java/com/cognizant/inventoryservice/InventoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/1. Microservices using Spring Boot 3 exercises/Exercise-2-Inventory-Service-Discovery/src/main/java/com/cognizant/exercise2inventoryservicediscovery/Inventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/1. Microservices using Spring Boot 3 exercises/Exercise-2-Inventory-Service-Discovery/src/main/java/com/cognizant/exercise2inventoryservicediscovery/InventoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/1. Microservices using Spring Boot 3 exercises/Exercise-3-API-Gateway/Billing-Service/Billing-Service/src/main/java/com/cognizant/billingservice/BillingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/1. Microservices using Spring Boot 3 exercises/Exercise-3-API-Gateway/Billing-Service/Billing-Service/src/main/java/com/cognizant/billingservice/BillingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/1. Microservices using Spring Boot 3 exercises/Exercise-3-API-Gateway/Customer-Service/src/main/java/com/cognizant/customerservice/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/1. Microservices using Spring Boot 3 exercises/Exercise-3-API-Gateway/Customer-Service/src/main/java/com/cognizant/customerservice/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/1. Microservices using Spring Boot 3 exercises/Exercise-4-Resilient-Microservices/Payment-Service/src/main/java/com/cognizant/paymentservice/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/1. Microservices using Spring Boot 3 exercises/Exercise-4-Resilient-Microservices/Payment-Service/src/main/java/com/cognizant/paymentservice/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/1. Microservices using Spring Boot 3 exercises/Exercise-4-Resilient-Microservices/Payment-Service/src/main/java/com/cognizant/paymentservice/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/1. Microservices using Spring Boot 3 exercises/Exercise-4-Resilient-Microservices/Payment-Service/src/main/java/com/cognizant/paymentservice/service/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/2. Microservices with API gateway/api-gateway/src/main/java/com/cognizant/apigateway/LogFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/2. Microservices with API gateway/api-gateway/src/main/java/com/cognizant/apigateway/LogFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/2. Microservices with API gateway/loan/loan/src/main/java/com/cognizant/loan/Loan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/2. Microservices with API gateway/loan/loan/src/main/java/com/cognizant/loan/Loan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/2. Microservices with API gateway/loan/loan/src/main/java/com/cognizant/loan/LoanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/2. Microservices with API gateway/loan/loan/src/main/java/com/cognizant/loan/LoanController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microservices/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microservices/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="3GS3UTKRdQ56kXq3Em1We0m6859" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.All in JUnitBasicTesting.executor": "Run",
+    "JUnit.AssertionsTest.executor": "Run",
+    "JUnit.CalculatorAAATest.executor": "Run",
+    "JUnit.CalculatorTest.executor": "Run",
+    "JUnit.com.cognizant in JUnitBasicTesting.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/varsh/DeepSkilling/JUnit-Mockito-SLF4J/1. JUnit_Basic Testing Exercises/JUnitBasicTesting/JUnitBasicTesting/src/main/java/com/cognizant/Main.java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\varsh\DeepSkilling\JUnit-Mockito-SLF4J\1. JUnit_Basic Testing Exercises\JUnitBasicTesting\JUnitBasicTesting\src\main\java\com\cognizant" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.cognizant" />
+      <recent name="com.cogn" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CalculatorAAATest">
+    <configuration name="All in JUnitBasicTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitBasicTesting" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitBasicTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cognizant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cognizant" />
+      <option name="MAIN_CLASS_NAME" value="com.cognizant.AssertionsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorAAATest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitBasicTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cognizant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cognizant" />
+      <option name="MAIN_CLASS_NAME" value="com.cognizant.CalculatorAAATest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitBasicTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cognizant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cognizant" />
+      <option name="MAIN_CLASS_NAME" value="com.cognizant.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.cognizant in JUnitBasicTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitBasicTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cognizant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cognizant" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CalculatorAAATest" />
+        <item itemvalue="JUnit.AssertionsTest" />
+        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.com.cognizant in JUnitBasicTesting" />
+        <item itemvalue="JUnit.All in JUnitBasicTesting" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49bb424b-a321-4736-a834-8c0ab6902d67" name="Changes" comment="" />
+      <created>1783951163968</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1783951163968</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cognizant/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+21:53:50.437 [main] DEBUG c.cognizant.AppenderLoggingExample - This is a debug message
+21:53:50.441 [main] INFO  c.cognizant.AppenderLoggingExample - This is an info message
+21:53:50.442 [main] WARN  c.cognizant.AppenderLoggingExample - This is a warning message
+21:53:50.442 [main] ERROR c.cognizant.AppenderLoggingExample - This is an error message
+21:54:03.739 [main] ERROR com.cognizant.LoggingExample - This is an error message
+21:54:03.743 [main] WARN  com.cognizant.LoggingExample - This is a warning message
+21:54:13.295 [main] INFO  c.c.ParameterizedLoggingExample - User Ishu is 21 years old
+21:55:25.516 [main] DEBUG c.cognizant.AppenderLoggingExample - This is a debug message
+21:55:25.520 [main] INFO  c.cognizant.AppenderLoggingExample - This is an info message
+21:55:25.522 [main] WARN  c.cognizant.AppenderLoggingExample - This is a warning message
+21:55:25.522 [main] ERROR c.cognizant.AppenderLoggingExample - This is an error message

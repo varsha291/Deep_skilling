@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/0. Sample Microservices Exercises/Exercise-3-JWT/pom.xml" />
+        <option value="$PROJECT_DIR$/0. Sample Microservices Exercises/Exercise-1-OAuth2-OIDC/Exercise-1-OAuth2-OIDC/pom.xml" />
+        <option value="$PROJECT_DIR$/0. Sample Microservices Exercises/Exercise-2-Resource-Server/pom.xml" />
+        <option value="$PROJECT_DIR$/2. Microservices with API gateway/loan/loan/pom.xml" />
+        <option value="$PROJECT_DIR$/2. Microservices with API gateway/account/pom.xml" />
+        <option value="$PROJECT_DIR$/2. Microservices with API gateway/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/2. Microservices with API gateway/eureka-discovery-server/eureka-discovery-server/pom.xml" />
+        <option value="$PROJECT_DIR$/3. Microservices composite handson/loan/loan/pom.xml" />
+        <option value="$PROJECT_DIR$/3. Microservices composite handson/account/pom.xml" />
+        <option value="$PROJECT_DIR$/3. Microservices composite handson/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/3. Microservices composite handson/eureka-discovery-server/eureka-discovery-server/pom.xml" />
+        <option value="$PROJECT_DIR$/1. Microservices using Spring Boot 3 exercises/Exercise-3-API-Gateway/API-Gateway/API-Gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/1. Microservices using Spring Boot 3 exercises/Exercise-3-API-Gateway/Billing-Service/Billing-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/1. Microservices using Spring Boot 3 exercises/Exercise-3-API-Gateway/Customer-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/1. Microservices using Spring Boot 3 exercises/Exercise-1-User-Order-Management/pom.xml" />
+        <option value="$PROJECT_DIR$/1. Microservices using Spring Boot 3 exercises/Exercise-4-Resilient-Microservices/Payment-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/1. Microservices using Spring Boot 3 exercises/Exercise-2-Inventory-Service-Discovery/Eureka-Server/pom.xml" />
+        <option value="$PROJECT_DIR$/1. Microservices using Spring Boot 3 exercises/Exercise-2-Inventory-Service-Discovery/Inventory-Service/Inventory-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/0. Sample Microservices Load balancing exercises/Exercise-3-Resilience/pom.xml" />
+        <option value="$PROJECT_DIR$/0. Sample Microservices Load balancing exercises/Exercise-1-Edge-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/0. Sample Microservices Load balancing exercises/Exercise-2-Load-Balancing/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

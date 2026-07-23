@@ -1,0 +1,92 @@
+1. Graph
+Interview Definition ⭐
+
+A Graph is a non-linear data structure that consists of vertices (nodes) and edges connecting those vertices.
+
+Example:
+
+A ----- B
+|       |
+|       |
+C ----- D
+
+This is a graph.
+
+2. Vertex (Node)
+
+A Vertex (or Node) is a point in a graph that represents an object or a location.
+
+Example:
+
+A ----- B  238,560,523,974,724,54,59,48,74,28,344,151,443,415,125,409,5,438,242,167,345,88,283, 403157
+
+Here,
+
+A → Vertex
+B → Vertex
+3. Edge
+
+An Edge is a connection between two vertices in a graph.
+
+Example:
+
+A ----- B
+
+The line
+
+-----
+
+is the Edge.
+
+Types of graphs :
+Unidirected
+Biderectional
+weighted
+
+Graph representation : There are two ways
+ - Adjacency Matrix
+ - Adjacency List
+
+1. BFS (Breadth First Search)
+Definition ⭐
+
+BFS is a graph traversal algorithm that visits all neighboring vertices first before moving to the next level.
+
+Data Structure Used
+Queue (FIFO)
+Example
+      A
+     / \
+    B   C
+   / \   \
+  D   E   F
+
+Start from A
+
+Traversal:
+
+A → B → C → D → E → F
+
+It visits level by level.
+
+2. DFS (Depth First Search)
+Definition ⭐
+
+DFS is a graph traversal algorithm that visits as deep as possible before backtracking.
+
+Data Structure Used
+Stack (LIFO) or Recursion
+Example
+      A
+     / \
+    B   C
+   / \   \
+  D   E   F
+
+Start from A
+
+Traversal:
+
+A → B → D → E → C → F
+
+It goes deep first, then comes back.
